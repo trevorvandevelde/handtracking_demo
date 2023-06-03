@@ -1,0 +1,38 @@
+body {
+    background-color: #C1E1C1;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+}
+
+h1 {
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-family: 'Roboto', sans-serif;
+}
+
+p{
+    color: green;
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+div{
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%
+    
+}
+
+canvas{
+    display: block;
+    margin: 0 auto
+
+}
+
+
+
