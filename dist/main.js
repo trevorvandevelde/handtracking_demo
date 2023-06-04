@@ -1,5 +1,5 @@
 import * as THREE from 'https://unpkg.com/three/build/three.module.js';
-import { GUI } from 'dat.gui';
+//import { GUI } from 'dat.gui';
 import { Hands } from '@mediapipe/hands';
 
 const videoElement = document.getElementsByClassName('input_video')[0];
