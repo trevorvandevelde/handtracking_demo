@@ -1,6 +1,7 @@
 import * as THREE from 'https://unpkg.com/three/build/three.module.js';
 //import { GUI } from 'dat.gui';
-import { Hands } from '@mediapipe/hands';
+//import { Hands } from '@mediapipe/hands';
+//import { Hands } from 'https://cdn.jsdelivr.net/npm/@mediapipe/tasks-vision@0.10.0'
 
 const videoElement = document.getElementsByClassName('input_video')[0];
 const canvasElement = document.getElementsByClassName('output_canvas')[0];
