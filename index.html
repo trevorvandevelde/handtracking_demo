@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+        
+		<script src="https://cdn.jsdelivr.net/npm/@mediapipe/camera_utils/camera_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/control_utils/control_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/drawing_utils/drawing_utils.js" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@mediapipe/hands/hands.js" crossorigin="anonymous"></script>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+        <meta charset="utf-8">
+		<title>My first three.js app</title>
+		<style>
+			body { margin: 0; }
+            
+		</style>
+        <link rel="shortcut icon" href="#" />
+	</head>
+	<body>
+		<script type="module" src="main.js"></script>
+        
+        
+        <video hidden class="input_video"></video>
+        
+        <div>
+            <p>
+                Hand Tracking App by Trevor Van de Velde
+            </p>
+        </div>
+
+        <div class="lights">
+        
+            <div class="red" id="red_light"></div>
+            
+            <div class="green" id="green_light"></div>
+        </div>
+
+        <div class="container">
+
+        </div>
+        <div>
+            <p>
+                Raise Right Hand for a <w class="Red_Text">Red</w> Light and Left Hand for a <w class="Green_Text">Green</w> Light.
+            </p>
+        </div>
+
+        
+
+	</body>
+</html>
